@@ -45,6 +45,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 ::selection {
     color: var(--footer-text-color);
@@ -894,10 +895,10 @@ nav #university-logo a .logo {
         transform: translateY(-50%);
       }
       #lightBoxContainer #lightBox #prevBtn {
-        left: -10%;
+        left: -7%;
       }
       #lightBoxContainer #lightBox #nextBtn {
-        right: -10%;
+        right: -7%;
       }
       @media (max-width: 991px) {
         #lightBoxContainer #lightBox {
