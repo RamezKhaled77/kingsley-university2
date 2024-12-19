@@ -45,7 +45,6 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 ::selection {
     color: var(--footer-text-color);
